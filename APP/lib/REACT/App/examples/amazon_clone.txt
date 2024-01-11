@@ -1,0 +1,66 @@
+amazon-clone/
+├── src/
+│   ├── components/                  # Common Components
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   ├── ProductCard.js
+│   │   ├── ShoppingCart.js
+│   │   ├── CheckoutForm.js
+│   │   ├── UserAccount.js
+│   ├── pages/                       # Pages Directory
+│   │   ├── Home.js
+│   │   ├── Products.js
+│   │   ├── ProductDetail.js
+│   │   ├── Cart.js
+│   │   ├── Checkout.js
+│   │   ├── Orders.js
+│   ├── services/                    # Services Directory
+│   │   ├── AuthService.js
+│   │   ├── ProductService.js
+│   │   ├── CartService.js
+│   │   ├── OrderService.js
+│   ├── store/                       # Store Directory
+│   │   ├── reducers/
+│   │   │   ├── authReducer.js
+│   │   │   ├── productReducer.js
+│   │   │   ├── cartReducer.js
+│   │   │   ├── orderReducer.js
+│   │   ├── actions/
+│   │   │   ├── authActions.js
+│   │   │   ├── productActions.js
+│   │   │   ├── cartActions.js
+│   │   │   ├── orderActions.js
+│   │   ├── store.js
+│   ├── assets/                      # Assets Directory
+│   │   ├── images/
+│   │   │   ├── logo.png
+│   │   │   ├── product-images/
+│   │   │   │   ├── product1.jpg
+│   │   │   │   ├── product2.jpg
+│   │   │   ├── styles/
+│   │   │   │   ├── main.css
+│   ├── utils/                       # Utility Functions and Modules
+│   │   ├── api.js
+│   │   ├── helpers.js
+│   ├── config/                      # Configuration Files
+│   │   ├── routes.js
+│   │   ├── constants.js
+│   ├── App.js                        # Main Application Component
+│   ├── index.js                      # Entry point for the React app
+├── public/                           # Public Directory
+│   ├── index.html
+│   ├── manifest.json
+│   ├── robots.txt
+│   ├── favicon.ico
+│   ├── apple-touch-icon.png
+│   ├── images/
+│   │   ├── background.jpg
+│   │   ├── logo.png
+│   ├── fonts/
+│   │   ├── font1.woff
+│   │   ├── font2.ttf
+│   ├── other-assets/
+│   │   ├── sample-data.json
+├── package.json
+├── README.md
+└── ...                               # Other project files and folders

@@ -1,0 +1,59 @@
+music-app/
+├── src/
+│   ├── components/                  # Common Components
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   ├── MusicPlayer.js
+│   │   ├── Playlist.js
+│   │   ├── Library.js
+│   │   ├── UserAccount.js
+│   ├── pages/                       # Pages Directory
+│   │   ├── Home.js
+│   │   ├── Playlist.js
+│   │   ├── Library.js
+│   │   ├── Account.js
+│   ├── services/                    # Services Directory
+│   │   ├── AuthService.js
+│   │   ├── MusicService.js
+│   │   ├── UserService.js
+│   ├── store/                       # Store Directory
+│   │   ├── reducers/
+│   │   │   ├── authReducer.js
+│   │   │   ├── musicReducer.js
+│   │   │   ├── userReducer.js
+│   │   ├── actions/
+│   │   │   ├── authActions.js
+│   │   │   ├── musicActions.js
+│   │   │   ├── userActions.js
+│   │   ├── store.js
+│   ├── assets/                      # Assets Directory
+│   │   ├── music/
+│   │   │   ├── song1.mp3
+│   │   │   ├── song2.mp3
+│   │   │   ├── song3.mp3
+│   │   ├── album-covers/
+│   │   │   ├── cover1.jpg
+│   │   │   ├── cover2.jpg
+│   │   │   ├── cover3.jpg
+│   │   ├── styles/
+│   │   │   ├── main.css
+│   ├── utils/                       # Utility Functions and Modules
+│   │   ├── api.js
+│   │   ├── helpers.js
+│   ├── config/                      # Configuration Files
+│   │   ├── routes.js
+│   │   ├── constants.js
+│   ├── App.js                        # Main Application Component
+│   ├── index.js                      # Entry point for the React app
+├── public/                           # Public Directory
+│   ├── index.html
+│   ├── manifest.json
+│   ├── favicon.ico
+│   ├── images/
+│   │   ├── logo.png
+│   ├── fonts/
+│   │   ├── font1.woff
+│   │   ├── font2.ttf
+├── package.json
+├── README.md
+└── ...                               # Other project files and folders

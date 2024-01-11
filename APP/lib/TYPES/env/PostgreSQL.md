@@ -1,0 +1,9 @@
+s# PostgreSQL Database Configuration
+DB_HOST=localhost       # Database host
+DB_PORT=5432            # Database port
+DB_USER=myDbUser        # Database username
+DB_PASSWORD=myDbPass    # Database password
+DB_NAME=ringmaster_db   # Database name
+
+# Express Server Port
+PORT=5000               # Port for the Node.js server

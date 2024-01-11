@@ -1,0 +1,72 @@
+facebook-clone/
+├── src/
+│   ├── components/                  # Common Components
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   ├── Post.js
+│   │   ├── Comment.js
+│   │   ├── LikeButton.js
+│   │   ├── ShareButton.js
+│   │   ├── FriendRequest.js
+│   │   ├── Messenger.js
+│   │   ├── ProfileCard.js
+│   ├── pages/                       # Pages Directory
+│   │   ├── Home.js
+│   │   ├── Profile/
+│   │   │   ├── Profile.js
+│   │   │   ├── EditProfile.js
+│   │   │   ├── Friends.js
+│   │   │   ├── Photos.js
+│   │   ├── Marketplace/
+│   │   │   ├── Marketplace.js
+│   │   │   ├── ProductDetail.js
+│   ├── services/                    # Services Directory
+│   │   ├── AuthService.js
+│   │   ├── PostService.js
+│   │   ├── UserService.js
+│   │   ├── FriendRequestService.js
+│   │   ├── MessengerService.js
+│   ├── store/                       # Store Directory
+│   │   ├── reducers/
+│   │   │   ├── authReducer.js
+│   │   │   ├── postReducer.js
+│   │   │   ├── userReducer.js
+│   │   │   ├── friendRequestReducer.js
+│   │   │   ├── messengerReducer.js
+│   │   ├── actions/
+│   │   │   ├── authActions.js
+│   │   │   ├── postActions.js
+│   │   │   ├── userActions.js
+│   │   │   ├── friendRequestActions.js
+│   │   │   ├── messengerActions.js
+│   │   ├── store.js
+│   ├── assets/                      # Assets Directory
+│   │   ├── images/
+│   │   │   ├── logo.png
+│   │   ├── styles/
+│   │   │   ├── main.css
+│   ├── utils/                       # Utility Functions and Modules
+│   │   ├── api.js
+│   │   ├── helpers.js
+│   ├── config/                      # Configuration Files
+│   │   ├── routes.js
+│   │   ├── constants.js
+│   ├── App.js                        # Main Application Component
+│   ├── index.js                      # Entry point for the React app
+├── public/                           # Public Directory
+│   ├── index.html
+│   ├── manifest.json
+│   ├── robots.txt
+│   ├── favicon.ico
+│   ├── apple-touch-icon.png
+│   ├── images/
+│   │   ├── background.jpg
+│   │   ├── logo.png
+│   ├── fonts/
+│   │   ├── font1.woff
+│   │   ├── font2.ttf
+│   ├── other-assets/
+│   │   ├── sample-data.json
+├── package.json
+├── README.md
+└── ...                               # Other project files and folders

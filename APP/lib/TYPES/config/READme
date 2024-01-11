@@ -1,0 +1,39 @@
+1. **TypeScript Configuration (`tsconfig.json`)**:
+   Ensure you have a `tsconfig.json` file in your project root with the correct configuration for your project. If you don't have this file, you can generate a default one with `tsc --init`. This file tells TypeScript how to compile your `.ts` files.
+
+2. **Script Command for .env (require dotenv no longer necessary) `dev`**:
+
+   ```json
+   "dev": "ts-node --env-file=.env server/server.ts"
+   ```
+
+   Additionally, make sure you have the necessary package to handle `--env-file`. If not, you might need to use a package like `dotenv`.
+
+3. **Ensure `ts-node` is Installed Globally** (if running scripts outside npm):
+   If you're running `ts-node` directly from the command line (not via an npm script), ensure it's installed globally:
+
+   `npm install -g ts-node`
+
+
+### package.json example:
+{
+  "name": "ringmaster",
+  "version": "1.0.0",
+  "description": "- **User Story**: As an admin, I want to create and edit boxing events, so that I can manage the event schedule effectively.\r    - **Tasks**: Implement event creation and editing interfaces, integrate with a backend to store event details.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node server/server.ts",
+    "dev": "ts-node --env-file=.env server/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2"
+  } 
+}

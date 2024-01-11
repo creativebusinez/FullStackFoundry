@@ -1,0 +1,90 @@
+my-blogging-app/
+├── src/
+│   ├── components/                  # Common Components
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   ├── NavigationBar.js
+│   │   ├── Button.js
+│   │   ├── Form/
+│   │   │   ├── InputField.js
+│   │   │   ├── Checkbox.js
+│   │   │   ├── RadioButton.js
+│   │   │   ├── SelectDropdown.js
+│   │   ├── Modal.js
+│   │   ├── Card.js
+│   │   ├── Alert.js
+│   │   ├── Spinner.js
+│   │   ├── Pagination.js
+│   │   ├── Tabs.js
+│   │   ├── Accordion.js
+│   │   ├── Carousel.js
+│   │   ├── Avatar.js
+│   │   ├── Dropdown.js
+│   │   ├── Tooltip.js
+│   │   ├── DatePicker.js
+│   │   ├── Chart/
+│   │   │   ├── LineChart.js
+│   │   │   ├── BarChart.js
+│   │   ├── VideoPlayer.js
+│   │   ├── AudioPlayer.js
+│   │   ├── Comment.js
+│   │   ├── SearchBar.js
+│   │   ├── Rating.js
+│   │   ├── NotificationIcon.js
+│   │   ├── Profile.js
+│   ├── pages/                       # Pages Directory
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   ├── Contact.js
+│   │   ├── Blog/
+│   │   │   ├── BlogList.js
+│   │   │   ├── BlogPost.js
+│   │   ├── User/
+│   │   │   ├── UserProfile.js
+│   │   │   ├── UserSettings.js
+│   ├── services/                    # Services Directory
+│   │   ├── AuthService.js
+│   │   ├── ApiService.js
+│   │   ├── BlogService.js
+│   │   ├── UserService.js
+│   ├── store/                       # Store Directory
+│   │   ├── reducers/
+│   │   │   ├── authReducer.js
+│   │   │   ├── blogReducer.js
+│   │   │   ├── userReducer.js
+│   │   ├── actions/
+│   │   │   ├── authActions.js
+│   │   │   ├── blogActions.js
+│   │   │   ├── userActions.js
+│   │   ├── store.js
+│   ├── assets/                      # Assets Directory
+│   │   ├── images/
+│   │   │   ├── logo.png
+│   │   │   ├── background.jpg
+│   │   ├── styles/
+│   │   │   ├── main.css
+│   ├── utils/                       # Utility Functions and Modules
+│   │   ├── api.js
+│   │   ├── helpers.js
+│   ├── config/                      # Configuration Files
+│   │   ├── routes.js
+│   │   ├── constants.js
+│   ├── App.js                        # Main Application Component
+│   ├── index.js                      # Entry point for the React app
+├── public/                           # Public Directory
+│   ├── index.html
+│   ├── manifest.json
+│   ├── robots.txt
+│   ├── favicon.ico
+│   ├── apple-touch-icon.png
+│   ├── images/
+│   │   ├── background.jpg
+│   │   ├── logo.png
+│   ├── fonts/
+│   │   ├── font1.woff
+│   │   ├── font2.ttf
+│   ├── other-assets/
+│   │   ├── sample-data.json
+├── package.json
+├── README.md
+└── ...                               # Other project files and folders

@@ -1,0 +1,68 @@
+twitter-clone/
+├── src/
+│   ├── components/                  # Common Components
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   ├── NavigationBar.js
+│   │   ├── Tweet.js
+│   │   ├── ProfileCard.js
+│   │   ├── Notification.js
+│   │   ├── FollowButton.js
+│   │   ├── Message.js
+│   │   ├── TrendingTags.js
+│   │   ├── UserSuggestions.js
+│   ├── pages/                       # Pages Directory
+│   │   ├── Home.js
+│   │   ├── Explore.js
+│   │   ├── Notifications.js
+│   │   ├── Messages.js
+│   │   ├── Profile/
+│   │   │   ├── Profile.js
+│   │   │   ├── EditProfile.js
+│   ├── services/                    # Services Directory
+│   │   ├── AuthService.js
+│   │   ├── TweetService.js
+│   │   ├── UserService.js
+│   │   ├── NotificationService.js
+│   ├── store/                       # Store Directory
+│   │   ├── reducers/
+│   │   │   ├── authReducer.js
+│   │   │   ├── tweetReducer.js
+│   │   │   ├── userReducer.js
+│   │   │   ├── notificationReducer.js
+│   │   ├── actions/
+│   │   │   ├── authActions.js
+│   │   │   ├── tweetActions.js
+│   │   │   ├── userActions.js
+│   │   │   ├── notificationActions.js
+│   │   ├── store.js
+│   ├── assets/                      # Assets Directory
+│   │   ├── images/
+│   │   │   ├── logo.png
+│   │   ├── styles/
+│   │   │   ├── main.css
+│   ├── utils/                       # Utility Functions and Modules
+│   │   ├── api.js
+│   │   ├── helpers.js
+│   ├── config/                      # Configuration Files
+│   │   ├── routes.js
+│   │   ├── constants.js
+│   ├── App.js                        # Main Application Component
+│   ├── index.js                      # Entry point for the React app
+├── public/                           # Public Directory
+│   ├── index.html
+│   ├── manifest.json
+│   ├── robots.txt
+│   ├── favicon.ico
+│   ├── apple-touch-icon.png
+│   ├── images/
+│   │   ├── background.jpg
+│   │   ├── logo.png
+│   ├── fonts/
+│   │   ├── font1.woff
+│   │   ├── font2.ttf
+│   ├── other-assets/
+│   │   ├── sample-data.json
+├── package.json
+├── README.md
+└── ...                               # Other project files and folders

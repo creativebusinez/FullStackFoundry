@@ -1,0 +1,65 @@
+uber-service/
+├── src/
+│   ├── components/                  # Common Components
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   ├── RideCard.js
+│   │   ├── RideMap.js
+│   │   ├── BookingForm.js
+│   │   ├── UserAccount.js
+│   ├── pages/                       # Pages Directory
+│   │   ├── Home.js
+│   │   ├── Rides.js
+│   │   ├── RideDetail.js
+│   │   ├── Booking.js
+│   │   ├── Account.js
+│   ├── services/                    # Services Directory
+│   │   ├── AuthService.js
+│   │   ├── RideService.js
+│   │   ├── BookingService.js
+│   │   ├── UserService.js
+│   ├── store/                       # Store Directory
+│   │   ├── reducers/
+│   │   │   ├── authReducer.js
+│   │   │   ├── rideReducer.js
+│   │   │   ├── bookingReducer.js
+│   │   │   ├── userReducer.js
+│   │   ├── actions/
+│   │   │   ├── authActions.js
+│   │   │   ├── rideActions.js
+│   │   │   ├── bookingActions.js
+│   │   │   ├── userActions.js
+│   │   ├── store.js
+│   ├── assets/                      # Assets Directory
+│   │   ├── images/
+│   │   │   ├── logo.png
+│   │   │   ├── ride-images/
+│   │   │   │   ├── ride1.jpg
+│   │   │   │   ├── ride2.jpg
+│   │   │   ├── styles/
+│   │   │   │   ├── main.css
+│   ├── utils/                       # Utility Functions and Modules
+│   │   ├── api.js
+│   │   ├── helpers.js
+│   ├── config/                      # Configuration Files
+│   │   ├── routes.js
+│   │   ├── constants.js
+│   ├── App.js                        # Main Application Component
+│   ├── index.js                      # Entry point for the React app
+├── public/                           # Public Directory
+│   ├── index.html
+│   ├── manifest.json
+│   ├── robots.txt
+│   ├── favicon.ico
+│   ├── apple-touch-icon.png
+│   ├── images/
+│   │   ├── background.jpg
+│   │   ├── logo.png
+│   ├── fonts/
+│   │   ├── font1.woff
+│   │   ├── font2.ttf
+│   ├── other-assets/
+│   │   ├── sample-data.json
+├── package.json
+├── README.md
+└── ...                               # Other project files and folders

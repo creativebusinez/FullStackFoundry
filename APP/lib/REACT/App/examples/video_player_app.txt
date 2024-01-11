@@ -1,0 +1,45 @@
+video-player-app/
+├── src/
+│   ├── components/                  # Common Components
+│   │   ├── VideoPlayer.js
+│   │   ├── Playlist.js
+│   │   ├── PlaybackControls.js
+│   │   ├── SettingsPanel.js
+│   │   ├── VideoInfo.js
+│   ├── services/                    # Services Directory
+│   │   ├── VideoService.js
+│   ├── store/                       # Store Directory (for future expansion)
+│   │   ├── reducers/
+│   │   │   ├── videoReducer.js
+│   │   ├── actions/
+│   │   │   ├── videoActions.js
+│   │   ├── store.js
+│   ├── assets/                      # Assets Directory
+│   │   ├── videos/
+│   │   │   ├── video1.mp4
+│   │   │   ├── video2.mp4
+│   │   │   ├── video3.mp4
+│   │   ├── thumbnails/
+│   │   │   ├── video1.jpg
+│   │   │   ├── video2.jpg
+│   │   │   ├── video3.jpg
+│   │   ├── styles/
+│   │   │   ├── main.css
+│   ├── utils/                       # Utility Functions and Modules
+│   │   ├── helpers.js
+│   ├── config/                      # Configuration Files
+│   │   ├── constants.js
+│   ├── App.js                        # Main Application Component
+│   ├── index.js                      # Entry point for the React app
+├── public/                           # Public Directory
+│   ├── index.html
+│   ├── manifest.json
+│   ├── favicon.ico
+│   ├── images/
+│   │   ├── logo.png
+│   ├── fonts/
+│   │   ├── font1.woff
+│   │   ├── font2.ttf
+├── package.json
+├── README.md
+└── ...                               # Other project files and folders
