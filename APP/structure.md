@@ -1,5 +1,92 @@
 # API Structure
 
+[/APP](/APP/)
+│
+├── [/client](/APP/client/)
+|   ├── /frameworks
+│   │   ├── /react
+│   │   ├── /nextjs
+│   │   └── /vue
+        ├── /angular
+        ├── /svelte
+│   ├── /build-tools
+│   │   ├── /webpack
+│   │   ├── /vite
+|   |   ├── /turborepo
+|   |   ├── /swc
+|   |   ├── /nx
+|   |   
+│   ├── /styles
+│   │   ├── /sass
+│   │   └── /css
+│   ├── /testing
+│   │   ├── /jest
+│   │   └── /cypress
+│   ├── /utilities
+│   │   ├── /axios
+│   │   └── /lodash
+│   └── /static
+│       ├── /images
+│       └── /fonts
+│
+├── [Other directories without a framework]
+│   ├── /views
+│   │   ├── /layouts
+│   │   └── /partials
+│   ├── /scripts
+│   └── /styles
+│
+├── /server
+│   ├── /controllers
+│   │   ├── authenticationController.js
+│   │   └── dataController.js
+│   ├── /models
+│   │   ├── userModel.js
+│   │   └── dataModel.js
+│   ├── /routes
+│   │   ├── authRoutes.js
+│   │   └── apiRoutes.js
+│   └── /utils
+│       └── database.js
+│
+├── /env
+│   ├── development.env
+│   ├── production.env
+│   └── staging.env
+│
+├── /lib
+│   ├── /middleware
+│   │   ├── errorHandling.js
+│   │   └── sessionManagement.js
+│   ├── /services
+│   │   ├── emailService.js
+│   │   └── paymentGateway.js
+│   └── /helpers
+│       ├── logger.js
+│       └── validator.js
+│
+├── /Help
+│   ├── /docs
+│   │   ├── setupGuide.md
+│   │   └── apiDocumentation.md
+│   ├── /tutorials
+│   │   ├── introToMVC.md
+│   │   └── databaseIntegration.md
+│   └── /FAQ
+│       └── commonIssues.md
+│
+└── /res
+    ├── /templates
+    │   └── emailTemplate.html
+    ├── /configs
+    │   └── webpackConfig.js
+    └── /scripts
+        └── backupScript.sh
+
+
+
+
+
 [fullstack-app/](/APP/Help/)
 │
 ├── [frontend/](/APP/Help/FRONT_END.md)
