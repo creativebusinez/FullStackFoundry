@@ -1,25 +1,35 @@
+# Authentication and Authorization
+
 Authentication and authorization are critical aspects of web application security. Here's a list of some of the top authentication and authorization solutions and libraries as of my last knowledge update in January 2022. Please keep in mind that the landscape of web security tools and practices may have evolved since then, so it's important to stay updated with the latest developments and best practices.
 
-### Authentication Solutions and Libraries:
+## Authentication Solutions and Libraries
 
 1. **Passport.js**: A widely-used authentication middleware for Node.js. It supports various authentication strategies, including local username/password, OAuth, and OpenID.
 
-2. **Auth0**: A comprehensive authentication and identity management platform that offers various authentication methods, single sign-on (SSO), multi-factor authentication (MFA), and user management features.
+    - **Related Links**:
+      - [Passport.js Official Website](https://www.passportjs.org/)
+      - [Passport.js Documentation](https://www.passportjs.org/docs/)
 
-3. **Firebase Authentication**: Part of Google's Firebase platform, Firebase Authentication provides a cloud-based authentication service with support for various identity providers, including email/password, Google, Facebook, and more.
+    - **NPM Commands**:
+      - `npm i passport`             # Install the primary "Passport JS" library, and the "express-session" library
+      - `npm i express-session`      # The main "passport" library piggybacks on the "express-session" library, so in order to use "passport" you will have to install "express-session.
 
-4. **Okta**: A robust identity management and authentication platform that offers features like SSO, MFA, user provisioning, and API security.
+           
+1. **Auth0**: A comprehensive authentication and identity management platform that offers various authentication methods, single sign-on (SSO), multi-factor authentication (MFA), and user management features.
 
-5. **Keycloak**: An open-source identity and access management solution developed by Red Hat. It provides features like authentication, authorization, SSO, and user management.
+2. **Firebase Authentication**: Part of Google's Firebase platform, Firebase Authentication provides a cloud-based authentication service with support for various identity providers, including email/password, Google, Facebook, and more.
 
-6. **Authentic**: A lightweight, open-source authentication library for JavaScript that simplifies implementing authentication in front-end applications.
+3. **Okta**: A robust identity management and authentication platform that offers features like SSO, MFA, user provisioning, and API security.
 
-7. **Devise (Ruby on Rails)**: A flexible authentication solution for Ruby on Rails applications. It provides a wide range of authentication-related features and can be customized to fit specific requirements.
+4. **Keycloak**: An open-source identity and access management solution developed by Red Hat. It provides features like authentication, authorization, SSO, and user management.
 
-8. **JWT (JSON Web Tokens)**: A standard for creating secure authentication tokens that can be used to authenticate users in web applications. Many libraries and frameworks support JWT-based authentication.
+5. **Authentic**: A lightweight, open-source authentication library for JavaScript that simplifies implementing authentication in front-end applications.
 
+6. **Devise (Ruby on Rails)**: A flexible authentication solution for Ruby on Rails applications. It provides a wide range of authentication-related features and can be customized to fit specific requirements.
 
-### Authorization Solutions and Libraries:
+7. **JWT (JSON Web Tokens)**: A standard for creating secure authentication tokens that can be used to authenticate users in web applications. Many libraries and frameworks support JWT-based authentication.
+
+## Authorization Solutions and Libraries
 
 1. **OAuth 2.0**: A widely-adopted protocol for authorization. It allows third-party applications to access a user's resources without exposing their credentials. OAuth providers include Google, Facebook, and others.
 
