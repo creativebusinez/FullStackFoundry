@@ -47,7 +47,12 @@
    - NPM Commands:
      - Install Materialize CSS: `npm install materialize-css`
 
-6. **Tailwind CSS**: Tailwind CSS is a utility-first CSS framework that allows developers to apply utility classes directly to HTML elements, enabling rapid UI development without writing custom CSS.
+6. **StyleX**: StyleX is a simple, easy-to-use JavaScript syntax and compiler for styling web apps. StyleX combines the strengths and avoids the weaknesses of both inline styles and static CSS.
+
+   - Related Links:
+     - [StyleX Official Website](https://stylexjs.com/)
+
+7. **Tailwind CSS**: Tailwind CSS is a utility-first CSS framework that allows developers to apply utility classes directly to HTML elements, enabling rapid UI development without writing custom CSS.
 
    - Related Links:
      - [Tailwind CSS Official Website](https://tailwindcss.com/)
@@ -56,7 +61,7 @@
    - NPM Commands:
      - Install Tailwind CSS: `npm install tailwindcss`
 
-7. **Pure.css**: Developed by Yahoo, Pure.css is a minimalistic CSS framework that provides a clean and lightweight starting point for web projects. It focuses on modular CSS components.
+8. **Pure.css**: Developed by Yahoo, Pure.css is a minimalistic CSS framework that provides a clean and lightweight starting point for web projects. It focuses on modular CSS components.
 
    - Related Links:
      - [Pure.css Official Website](https://purecss.io/)
@@ -65,7 +70,7 @@
    - NPM Commands:
      - Install Pure.css: `npm install purecss`
 
-8. **Skeleton**: Skeleton is an ultra-lightweight CSS framework that includes a basic grid system and minimal styles. It's suitable for small projects or as a foundation for custom designs.
+9. **Skeleton**: Skeleton is an ultra-lightweight CSS framework that includes a basic grid system and minimal styles. It's suitable for small projects or as a foundation for custom designs.
 
    - Related Links:
      - [Skeleton Official Website](http://getskeleton.com/)

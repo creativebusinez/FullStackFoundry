@@ -105,7 +105,7 @@ Back-end:
 ## Full Stack Structure Examples
 
 fullstack-app/
-|   ├── client/                    
+|   ├── client/ 
 │   ├── public/                    # Publicly accessible files
 │   │   ├── assets/                # Static files (images, fonts)
 │   │   │   ├── css/               # Stylesheets (e.g., Bootstrap, Tailwind, etc.)
