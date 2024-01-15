@@ -1,3 +1,5 @@
+# Installing Vite
+
 To install Vite, a build tool for web development, you can follow these steps:
 
 1. **Create a New Project Directory**: First, create a new directory for your Vite project. You can do this using the command line:
@@ -9,7 +11,6 @@ To install Vite, a build tool for web development, you can follow these steps:
 
    `npm init @vitejs/app`
 
-
    Follow the prompts to set up your project. You'll be asked to choose a template (e.g., Vue, React, or Vanilla JavaScript) and other project settings.
 
 3. **Install Dependencies**: After creating your project, navigate into the project directory:
@@ -19,7 +20,6 @@ To install Vite, a build tool for web development, you can follow these steps:
    Then, install the project dependencies:
 
    `npm install`
-
 
 4. **Start the Development Server**: You can start the Vite development server by running:
 
@@ -35,10 +35,9 @@ To install Vite, a build tool for web development, you can follow these steps:
 
 That's it! You now have Vite installed and a basic project set up. You can start working on your web application using Vite's fast development environment.
 
-Make sure to refer to the official Vite documentation for more details and customization options: https://vitejs.dev/
+Make sure to refer to the official Vite documentation for more details and customization options: [https://vitejs.dev/]
 
-
-### Creating with --template:
+## Creating with --template
 
 To create a Vite project using the latest version of a template, you can use the `--template` flag along with the `@latest` tag. Here's the command to create a Vite project using the latest version of a specific template:
 

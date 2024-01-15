@@ -1,0 +1,47 @@
+# CSS Learning
+
+- [W3C](https://www.w3.org/Style/CSS/Overview.html)
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [freeCodeCamp](https://www.freecodecamp.org/)
+- [CSS Zen Garden](https://csszengarden.com/)
+
+- [Learning CSS Games](/APP/lib/res/Learning.md)
+<!-- - [Learn CSS Basics]()
+- [CSS Selectors]()
+- [CSS Variables]() -->
+
+## CSS Resource Sites
+
+Here are some of the top CSS resource websites in 2024, offering a variety of tools, tutorials, and frameworks to help you with your CSS development:
+
+1. **Codecademy**: Offers interactive coding sessions where you start small and gradually progress to more complex concepts. It's a hands-on approach to learning, though it may lack real-life project context.
+   - [Visit Codecademy](https://www.codecademy.com)
+
+2. **Treehouse**: Provides short, engaging video tutorials for a variety of courses including CSS. It offers coding challenges and has an iOS and Android app for learning on the go.
+   - [Explore Treehouse](https://teamtreehouse.com)
+
+3. **UIkit**: A lightweight and modular front-end framework for quick web interface development. It's user-friendly with autocomplete plugins for various IDEs or code editors.
+   - [Check out UIkit](https://getuikit.com)
+
+4. **Foundation**: Known for its responsive design capabilities, Foundation helps in building web and mobile applications. It provides a range of components and is supported by extensive documentation and tutorials.
+   - [Discover Foundation](https://foundation.zurb.com)
+
+5. **Pure**: Offers a set of small, responsive CSS modules that can be used in any web project. It's known for its minimalistic approach and is fully responsive.
+   - [Learn more about Pure](https://purecss.io)
+
+6. **Basscss**: A low-level CSS toolkit with clear, refined naming codes, Basscss speeds up development time and is scalable.
+   - [Explore Basscss](https://basscss.com)
+
+7. **Semantic UI**: Popular for its range of elements that can be built using Semantic elements, this framework is easy to use for both beginners and advanced-level web designers.
+   - [Visit Semantic UI](https://semantic-ui.com)
+
+8. **Specificity Calculator**: A visual tool to understand CSS specificity, allowing you to change selectors and see how they affect specificity.
+   - [Use Specificity Calculator](https://specificity.keegan.st)
+
+9. **Clean CSS**: A tool for compressing your CSS to optimize website performance.
+   - [Try Clean CSS](https://www.cleancss.com)
+
+10. **CSS Layout**: A collection of popular layouts and patterns made with CSS, offering a practical resource for common design challenges.
+    - [Visit CSS Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
+
+These resources cover a wide range of CSS-related needs, from learning and tutorials to frameworks and tools for specific tasks like layout design, compression, and pattern generation.
