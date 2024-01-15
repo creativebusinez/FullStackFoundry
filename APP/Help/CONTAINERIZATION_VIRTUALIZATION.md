@@ -55,7 +55,7 @@ Containerization and virtualization technologies are essential for managing and 
 
     - **Related Links:**
     - [Hyper-V Documentation](https://techcommunity.microsoft.com/t5/educator-developer-blog/step-by-step-enabling-hyper-v-for-use-on-windows-11/ba-p/3745905)
-    -  [Video](https://www.youtube.com/watch?v=ExZIQj-DvI8&ab_channel=GeekerMag.)
+    - [Video](https://www.youtube.com/watch?v=ExZIQj-DvI8&ab_channel=GeekerMag.)
 
 4. **KVM (Kernel-based Virtual Machine)**: A Linux kernel module that enables hardware virtualization support, often used with QEMU to create virtual machines.
 
