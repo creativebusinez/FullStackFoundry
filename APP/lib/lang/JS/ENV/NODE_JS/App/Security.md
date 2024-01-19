@@ -45,3 +45,89 @@ Here's a high-level list of popular security-related libraries and modules for N
     - CLI Command: `npm install -g nsp` (NSP CLI)
 
 These security-related libraries and modules are crucial for enhancing the security of your Node.js applications by protecting against common vulnerabilities and security threats. The choice of libraries depends on your project's security requirements and the specific threats you need to mitigate.
+
+## sample server.js
+
+```javascript
+const express = require('express');
+const helmet = require('helmet');
+const cors = require('cors');
+const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
+require('dotenv').config();
+
+const app = express();
+
+// Middlewares
+app.use(helmet());
+app.use(cors());
+app.use(express.json()); // for parsing application/json
+
+// User registration endpoint
+app.post('/register', async (req, res) => {
+  // Hash password and create user logic here
+  // Example: const hashedPassword = await bcrypt.hash(req.body.password, 10);
+});
+
+// User login endpoint
+app.post('/login', async (req, res) => {
+  // User authentication logic here
+  // On successful authentication, create a token
+  // Example: const token = jwt.sign({ userId: user.id }, process.env.JWT_SECRET);
+});
+
+// Basic route
+app.get('/', (req, res) => {
+  res.send('Welcome to the secure Express server!');
+});
+
+// Start the server
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+```
+
+## sample server.ts
+
+```typescript
+import express, { Request, Response } from 'express';
+import helmet from 'helmet';
+import cors from 'cors';
+import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+const app = express();
+
+// Middlewares
+app.use(helmet());
+app.use(cors());
+app.use(express.json()); // for parsing application/json
+
+// User registration endpoint
+app.post('/register', async (req: Request, res: Response) => {
+  // Implement your registration logic here
+  // Example: const hashedPassword = await bcrypt.hash(req.body.password, 10);
+  // ...
+});
+
+// User login endpoint
+app.post('/login', async (req: Request, res: Response) => {
+  // Implement your login logic here
+  // On successful authentication, create a token
+  // Example: const token = jwt.sign({ userId: user.id }, process.env.JWT_SECRET);
+  // ...
+});
+
+// Basic route
+app.get('/', (req: Request, res: Response) => {
+  res.send('Welcome to the secure Express server!');
+});
+
+// Start the server
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+```
+
+Remember to configure your TypeScript compiler settings in `tsconfig.json` to align with your project's requirements. This setup assumes you have the necessary types installed for Node, Express, and other libraries (`@types/node`, `@types/express`, `@types/bcrypt`, `@types/jsonwebtoken`). If not, you can install them using npm.

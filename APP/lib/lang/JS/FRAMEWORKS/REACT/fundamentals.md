@@ -13,7 +13,8 @@
    - Vite is a newer, faster build tool compared to Create React App.
    - It offers fast server start, instant module reloading, and leaner builds.
    - To set up a new React project with Vite:
-  Use the terminal to run `npm init vite@latest`.
+    Use the terminal to run `npm init vite@latest`.
+   - `npm init vite@latest client --template react`
 
 ## 1.2 Core React Concepts
 

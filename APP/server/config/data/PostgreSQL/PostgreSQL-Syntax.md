@@ -1,4 +1,4 @@
-# PostgreSQL Vocabulary
+# PostgreSQL Syntax
 
 1. **Database**: A collection of structured data with a well-defined schema. PostgreSQL allows you to create multiple databases within a single PostgreSQL cluster.
    Example (Creating a Database):
